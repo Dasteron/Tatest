@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planer</title>
+    <link rel="icon" href="img/favicon.ico"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container container__header">
+            <div class="content">
+                <img src="img/logo.png" alt="logo" class="header__img">
+                <h2 class="header__title">Planer</h2>
+            </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">Главная</li>
+
+                    <li class="nav__item">Обо мне</li>
+
+                    <li class="nav__item">Видео</li>
+
+                    <li class="nav__item">Галерея</li>
+
+                    <li class="nav__item">Контакты</li>
+                    
+                </ul>
+            </nav>
+            <img src="img/quit.png" alt="quit_button" class="img__quit">
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero__block">
+            <div class="container container__hero__block">
+                <img src="img/img.png" alt="Plane picture" class="hero__block__img">
+                <div>
+                    <h1 class="hero__block__title">Я, Тагир Нургалиев</h1>
+                    <p class="hero__block__p">Я занимаюсь обучением виртуальных пилотов в Microsoft Flight Simulator 2020. Также я основатель школы виртуальных лётчиков. Присоединяйтесь, небо ждёт вас!</p>
+                    <button class="hero__block__button button">Свяжитесь со мной</button>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="about__block">
+            <div class="container container__about__block">
+                <h1 class="about__block__title">Обо мне</h1>
+                <div class="about">
+                    <ul class="about__ul">
+                        <li class="about__item">Немного обо мне:</li>
+                        <li class="about__item">200+ часов налёта на Airbus A320</li>
+                        <li class="about__item">100+ часов налёта на Boeing 737</li>
+                        <li class="about__item">За всё время игры пролетел 150+ рейсов в Vatsim</li>
+                    </ul>
+    
+                    <img src="img/aboutimg.png" alt="Plane picture" class="about__block__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="video__section">
+            <div class="container__video">
+                <h1 class="video__title">Видео</h1>
+                <div class="video__div">
+                    <video class="video" autoplay controls>
+                        <source src="video/video.mp4">
+                    </video> 
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="conatainer container__gallery">
+                <h2 class="gallery__title">Галерея</h2>
+                <ul class="gallery__ul">
+                    <li class="gallery__item">
+                        <a href="img/img1.png" class="lightzoom">
+                            <img src="img/img1.png" alt="" class="gallery__img">
+                        </a>
+                    </li>
+                    <li class="gallery__item">
+                        <a href="img/img2.png" class="lightzoom">
+                            <img src="img/img2.png" alt="" class="gallery__img">
+                        </a>
+                    </li>
+                    <li class="gallery__item">
+                        <a href="img/img3.png" class="lightzoom">
+                            <img src="img/img3.png" alt="" class="gallery__img">
+                        </a>
+                    </li>
+                    <li class="gallery__item">
+                        <a href="img/img4.png" class="lightzoom">
+                            <img src="img/img4.png" alt="" class="gallery__img">
+                        </a>
+                    </li>
+                    <li class="gallery__item">
+                        <a href="img/img5.png" class="lightzoom">
+                            <img src="img/img5.png" alt="" class="gallery__img">
+                        </a>
+                    </li>
+                    <li class="gallery__item">
+                        <a href="img/img6.png" class="lightzoom">
+                            <img src="img/img6.png" alt="" class="gallery__img">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="container container__footer">
+            <div class="footer__content">
+                <h2 class="footer__title">Нургалиев Тагир</h2>
+                <p class="footer__text">© 2024. Все права защищены.</p>
+            </div>
+
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a href="#" class="footer__link"><img src="img/telegram.png" alt="telegram_picture"></a>
+                </li>
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link"><img src="img/vk.png" alt="vk_picture"></a>
+                </li>
+                
+                <li class="footer__item">
+                    <a href="#" class="footer__link"><img src="img/discord.png" alt="discord_picture"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+    <script type="text/javascript">
+        jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});
+        </script>
+</body>
+</html>
